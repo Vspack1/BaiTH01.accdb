@@ -1,0 +1,42 @@
+1.  
+2.  
+3.  
+4.  
+5.  
+6.  
+7.  
+8.  
+9.  
+Chạy chương trình MS Access 
+Làm quen các thành phần trên giao diện của MS Access 
+Mở một CSDL có sẳn (NorthWind.mdb) 
+*Tìm hiểu các đối tượng của một CSDL Access 
+Tạo mới 1 CSDL lưu thành file “BaiTH1.mdb” 
+Trong CSDL BaiTH1.mdb: tạo mới 1 table tên SinhViên, gồm các field: 
+MaSV: Text, 8, là thuộc tính khóa chính 
+           HoSV: Text, 50 
+           TenSV: Text, 20 
+           NgaySinh: Date/Time, ShortDate 
+           DiaChi: Text, 100 
+           GioiTinh: Text, 5 
+           MaLop: Text, 6 
+           QueQuan: Text, 50 
+           GhiChu: Memo 
+Nhập liệu >=5 hàng cho bảng SinhVien 
+Tạo query là 1 view giống như bảng SinhVien (đầy đủ các field) 
+Tạo query hiện 3 field: MaSV, HoSV, TenSV 
+10.  Tạo query hiện 3 field: MaSV, HoTenSV, QueQuan (họ và tên chung 1 field) 
+11.  Tạo query hiện 3 field: MaSV, HoTenSV, QueQuan. Sắp xếp tên SV từ A->Z 
+12.  Tạo query hiện 3 field: MaSV, HoTenSV, QueQuan. Chỉ lấy các SV có quê quán bắt đầu 
+bằng kí tự : “T” 
+13.  Tạo query hiện 3 field: MaSV, HoTenSV, QueQuan. Chỉ lấy các SV lớn hơn 20 tuổi 
+14.  Tạo Form tên frmSinhVien (bằng Wizard) để xem, xóa, sửa, nhập mới dữ liệu cho bảng 
+SinhVien 
+15.  Tạo Report  rptSinhVien (bằng Wizard) để in danh sách SV 
+16.  Tạo một macro và sử dụng vào một sự kiện trên form 
+17.  Viết lệnh VBA đơn giản và dùng vào một sự kiện trên form 
+18.  Thực hiện Repair and Compact CSDL BaiTH.mdb 
+19.  Convert các CSDL Access phiên bản khác nhau 
+20.  Dịch CSDL Access ra file MDE 
+21.  Tìm hiểu CSDL mẫu NorthWind.mdb 
+22.  Chép/cài CSDL mẫu NorthWind.mdb ở nhà để làm các bài kế tiếp 
